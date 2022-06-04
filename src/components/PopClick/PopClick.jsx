@@ -1,8 +1,8 @@
 import React from 'react'
-import classes from './PopClick.module.css'
+import './PopClick.css'
 const PopClick = () => {
   return (
-    <div className={classes.pop}>
+    <div className='pop'>
         <div>PopoClick</div>
     </div>
   )

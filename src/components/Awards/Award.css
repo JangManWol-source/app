@@ -1,0 +1,15 @@
+.header{
+    background-color: #455954;
+    display: flex;
+    color: white;
+    padding: 3rem;
+    margin-top: 25px;
+    justify-content: space-evenly;
+}
+.num{
+    font-weight: 800;
+    font-size: 25px;
+}
+.main{
+    height: fit-content;
+}

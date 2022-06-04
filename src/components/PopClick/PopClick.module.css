@@ -1,0 +1,11 @@
+.pop{
+    bottom: 0%;
+    right: 0%;
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: end;
+    padding: 1rem;
+    z-index: 1;
+}

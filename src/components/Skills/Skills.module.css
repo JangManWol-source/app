@@ -1,0 +1,10 @@
+.skills{
+    width: 100% auto;
+    height: 100vh auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}

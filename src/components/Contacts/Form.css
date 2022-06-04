@@ -1,0 +1,29 @@
+.left{
+    display: flex;
+    flex-direction: column;
+}
+.form{
+    display: flex;
+}
+textarea{
+    margin: 5px;
+    outline: none;
+}
+.name{
+    height: 50px;
+}
+.email{
+    height: 50px;
+}
+.message{
+    height: 100px;
+}
+button{
+    width: 100%;
+    background-color: #455954;
+    color: white;
+    font-weight: 500;
+    border: none;
+    padding: .5rem;
+    border-radius: 1rem;
+}

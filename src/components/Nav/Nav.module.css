@@ -1,0 +1,28 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #455954;
+    color: white;
+    align-items: center;
+    padding: .5rem;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    width: 100% auto;
+    position: fixed;
+    z-index: 1;
+}
+.with-line{
+    display: flex;
+    flex-direction: column;
+}
+.line{
+    height: 3px;
+    margin: .1rem;
+    width: 80px;
+    background-color: white;
+}
+.nav_holder{
+    position: fixed;
+}

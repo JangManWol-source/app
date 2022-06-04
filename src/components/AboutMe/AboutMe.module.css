@@ -1,0 +1,50 @@
+.about_me{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100% auto;
+    overflow: hidden;
+    position: relative;
+}
+.profile{
+    flex: 1;
+}
+.info{
+    flex: 1;
+    text-align: right;
+    padding-right: 1rem;
+}
+
+.greet{
+    font-weight: 400;
+    font-size: 20px;
+}
+.name{
+    font-weight: 800;
+    font-size: 25px;
+}
+.rank{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-weight: 600;
+    
+}
+.line{
+    width: 150px;
+    height: 3px;
+    background-color: #455954;
+}
+.message{
+    padding-left: 1rem;
+    padding-top: 25px;
+}
+
+@media screen and (max-width:480px) {
+    .about_me{
+        flex-direction: column;
+    }
+    
+}

@@ -1,0 +1,6 @@
+.circle{
+    clip-path: circle(50% at 50% 50%);
+    background-color: white;
+    width: 20px;
+    height: 20px;
+}

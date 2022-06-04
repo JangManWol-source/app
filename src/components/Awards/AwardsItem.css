@@ -1,0 +1,14 @@
+.card{
+    width: 150px;
+    margin: 5px;
+    height: 150px;
+}
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 25px;
+}
+.title{
+    padding: 20px;
+}

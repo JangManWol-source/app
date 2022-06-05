@@ -17,25 +17,25 @@ const Skills = (props) => {
     const web = ([{
         id: Math.random().toString(),
         title: 'React.JS',
-        value: '75%',
+        value: 75,
         img: react
     },
     {
         id: Math.random().toString(),
         title: 'JavaScript',
-        value: '75%',
+        value: 75,
         img: js
     },
     {
         id: Math.random().toString(),
         title: 'HTML',
-        value: '80%',
+        value: 80,
         img: html
     },
     {
         id: Math.random().toString(),
         title: 'CSS',
-        value: '75%',
+        value: 75,
         img: css
     }])
 
@@ -43,25 +43,25 @@ const Skills = (props) => {
         {
             id: Math.random().toString(),
             title: 'Adobe Photoshop',
-            value: '80%',
+            value: 80,
             img: ps
         },
         {
             id: Math.random().toString(),
             title: 'Adobe Illustrator',
-            value: '80%',
+            value: 80,
             img: ai
         },
         {
             id: Math.random().toString(),
             title: 'Figma',
-            value: '80%',
+            value: 80,
             img: figma
         },
         {
             id: Math.random().toString(),
             title: 'Adobe XD',
-            value: '80%',
+            value: 80,
             img: xd
         },
     ])
@@ -70,25 +70,25 @@ const Skills = (props) => {
         {
             id: Math.random().toString(),
             title: 'Android Studio',
-            value: '85%',
+            value: 85,
             img: aStudio
         },
         {
             id: Math.random().toString(),
             title: 'Firebase Database',
-            value: '80%',
+            value: 80,
             img: fr
         },
         {
             id: Math.random().toString(),
             title: 'Kotlin',
-            value: '80%',
+            value: 80,
             img: kt
         },
         {
             id: Math.random().toString(),
             title: 'Java',
-            value: '75%',
+            value: 75,
             img: java
         },
     ])

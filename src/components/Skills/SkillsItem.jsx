@@ -15,6 +15,9 @@ const SkillsItem = (props) => {
             <div className={classes.img}>
                 <img src={each.img} alt="" />
             </div>
+            <div className={classes.line}>
+                <div className={classes.line_bar} style={{width:each.value-30}}></div>
+            </div>
            </div>
         </Card>
     )}</div>
@@ -29,6 +32,9 @@ const SkillsItem = (props) => {
             <div className={classes.img}>
                 <img src={each.img} alt="" />
             </div>
+            <div className={classes.line}>
+                <div className={classes.line_bar} style={{width:each.value-30}}></div>
+            </div>
            </div>
         </Card>
     )}</div>
@@ -41,6 +47,9 @@ const SkillsItem = (props) => {
             </div>
             <div className={classes.img}>
                 <img src={each.img} alt="" />
+            </div>
+            <div className={classes.line}>
+                <div className={classes.line_bar} style={{width:each.value-30}}></div>
             </div>
            </div>
         </Card>

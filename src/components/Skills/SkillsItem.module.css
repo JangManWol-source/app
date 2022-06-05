@@ -2,8 +2,9 @@
     display: flex;
     width: 70px;
     height: 70px;
-    padding: 1rem;
+    padding: 1.5rem;
     margin: 10px;
+    flex-direction: row;
     align-items: center;
     font-size: 11px;
     justify-content: center;
@@ -27,4 +28,21 @@
     height: 60px;
     width: 60px;
 
+}
+.line{
+    
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 60px;
+    border-radius: 1rem;
+    height: 5px;
+}
+.line_bar{
+    height: 5px;
+    align-self: flex-end;
+    background-color: aqua;
+    width: 100%;
+    transition: width 8s;
+    position: absolute;
+    border-radius: 1rem;
 }

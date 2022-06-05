@@ -1,6 +1,5 @@
 import React from 'react'
 import Card from '../../UI/Card/Card'
-import CircleBar from './CircleBar'
 import classes from './SkillsItem.module.css'
 
 const SkillsItem = (props) => {
@@ -27,8 +26,8 @@ const SkillsItem = (props) => {
            <div>
             {each.title}
             </div>
-            <div>
-                <CircleBar value={each.value}/>
+            <div className={classes.img}>
+                <img src={each.img} alt="" />
             </div>
            </div>
         </Card>
@@ -40,9 +39,8 @@ const SkillsItem = (props) => {
            <div>
             {each.title}
             </div>
-            <div className={classes.circle_bar}>
-            <CircleBar value={each.value}>
-            </CircleBar>
+            <div className={classes.img}>
+                <img src={each.img} alt="" />
             </div>
            </div>
         </Card>

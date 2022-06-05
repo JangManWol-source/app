@@ -1,11 +1,13 @@
 import React from 'react'
 import classes from './AboutMe.module.css'
-
+import logo from '../res/drawable/logo.svg'
 const AboutMe = () => {
     return (
         <div className={classes.about_me}>
             <div className={classes.profile}>
-                <div>LOGO</div>
+                <div className={classes.logo}>
+                    <img src={logo} alt="" />
+                </div>
             </div>
             <div className={classes.info}>
                 <div className={classes.greet}>Hello I am,</div>

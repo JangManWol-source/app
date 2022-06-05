@@ -5,7 +5,6 @@
     padding: 3rem;
     flex-wrap: wrap;
     align-items: center;
-    margin-top: 25px;
     justify-content: space-evenly;
 }
 .num{
@@ -13,7 +12,7 @@
     font-size: 25px;
 }
 .main{
-    height: fit-content;
+    height: 100vh;
 }
 .item{
     margin: 10px;

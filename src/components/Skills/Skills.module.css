@@ -1,6 +1,6 @@
 .skills{
     width: 100% auto;
-    height: 100vh auto;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;

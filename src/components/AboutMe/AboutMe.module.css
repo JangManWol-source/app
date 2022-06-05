@@ -41,17 +41,20 @@
     padding-left: 1rem;
     padding-top: 25px;
 }
+.logo img{
+    width: 300px;
+    height: 300px;
+}
 
 @media screen and (max-width:480px) {
     .about_me{
         flex-direction: column;
-        height: 50vh;
-        margin-top: 100px;
     }
-
+    .profile{
+        padding-top: 8rem;
+    }
     .info{
         font-size: 13px;
-        padding: 20px;
     }
     
 }

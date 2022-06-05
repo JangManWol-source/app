@@ -13,8 +13,8 @@ const SkillsItem = (props) => {
            <div>
             {each.title}
             </div>
-            <div>
-                <CircleBar value={each.value} />
+            <div className={classes.img}>
+                <img src={each.img} alt="" />
             </div>
            </div>
         </Card>

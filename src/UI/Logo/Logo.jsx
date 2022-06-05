@@ -7,13 +7,13 @@ const Logo = () => {
             <table>
                 <tr>
                     <td>
-                        <div className={classes.circle}></div>
+                        <div className={classes.circle1}></div>
                     </td>
                     <td>
-                        <div className={classes.circle}></div>
+                        <div className={classes.circle2}></div>
                     </td>
                     <td>
-                        <div className={classes.circle}></div>
+                        <div className={classes.circle3}></div>
                     </td>
                 </tr>
             </table>

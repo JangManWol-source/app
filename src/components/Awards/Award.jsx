@@ -28,20 +28,20 @@ const Award = () => {
   return (
     <div className='main'>
       <div className="header">
-        <div>
+        <div className='item'>
           <div className='num'>452</div>
           <div>
           Cups Of Coffee</div>
         </div>
-        <div>
+        <div className='item'>
           <div className='num'>4</div>
           <div>React Projects</div>
         </div>
-        <div>
+        <div className='item'>
           <div className='num'>10</div>
           <div>Certificates</div>
         </div>
-        <div>
+        <div className='item'>
           <div className='num'>8301</div>
           <div>Sleeps (Nights)</div>
         </div>

@@ -2,12 +2,13 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #455954;
-    color: white;
+    background-color: white;
+    color: black;
     align-items: center;
     padding: .5rem;
     left: 0%;
     right: 0%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     top: 0%;
     width: 100% auto;
     position: fixed;
@@ -21,7 +22,7 @@
     height: 3px;
     margin: .1rem;
     width: 80px;
-    background-color: white;
+    background-color: #3581D8;
 }
 .nav_holder{
     position: fixed;

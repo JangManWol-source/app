@@ -5,9 +5,7 @@ const AboutMe = () => {
     return (
         <div className={classes.about_me}>
             <div className={classes.profile}>
-                <div>
-                    LOGO
-                </div>
+                <div>LOGO</div>
             </div>
             <div className={classes.info}>
                 <div className={classes.greet}>Hello I am,</div>

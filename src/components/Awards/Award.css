@@ -3,6 +3,8 @@
     display: flex;
     color: white;
     padding: 3rem;
+    flex-wrap: wrap;
+    align-items: center;
     margin-top: 25px;
     justify-content: space-evenly;
 }
@@ -12,4 +14,7 @@
 }
 .main{
     height: fit-content;
+}
+.item{
+    margin: 10px;
 }

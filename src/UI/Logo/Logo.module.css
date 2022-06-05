@@ -1,6 +1,18 @@
-.circle{
+.circle1{
     clip-path: circle(50% at 50% 50%);
-    background-color: white;
+    background-color: #D82E3F;
+    width: 20px;
+    height: 20px;
+}
+.circle2{
+    clip-path: circle(50% at 50% 50%);
+    background-color: #FFE135;
+    width: 20px;
+    height: 20px;
+}
+.circle3{
+    clip-path: circle(50% at 50% 50%);
+    background-color: #28CC2D;
     width: 20px;
     height: 20px;
 }

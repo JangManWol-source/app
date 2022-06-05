@@ -5,6 +5,10 @@
 .details{
     flex: 1;
 }
+.img img{
+    width: 20px;
+    height: 20px;
+}
 .form{
     flex: 1;
     display: flex;

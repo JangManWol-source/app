@@ -1,9 +1,9 @@
 .about_me{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100% auto;
     width: 100% auto;
     overflow: hidden;
     position: relative;
@@ -49,6 +49,7 @@
 @media screen and (max-width:480px) {
     .about_me{
         flex-direction: column;
+        height: 100% auto;
     }
     .profile{
         padding-top: 8rem;

@@ -1,15 +1,22 @@
 import React from 'react'
 import classes from './AboutMe.module.css'
 import logo from '../res/drawable/logo.svg'
+import {motion} from 'framer-motion'
+import {useInView} from 'react-intersection-observer'
+import { useEffect } from 'react' 
 const AboutMe = () => {
+
+    const[ref, inView] =  useInView();
+    useEffect(() => {
+    }, [inView])
     return (
-        <div className={classes.about_me}>
-            <div className={classes.profile}>
-                <div className={classes.logo}>
+        <motion.div className={classes.about_me} ref={ref}  initial={{x: '-100vw', opacity:0}} animate={{x: 0, opacity:1}} transition={{delay:.5, duration: 1, type:'spring', stiffness:150}}>
+            <motion.div className={classes.profile}  >
+                <motion.div className={classes.logo} whileHover={{scale:1.5}}>
                     <img src={logo} alt="" />
-                </div>
-            </div>
-            <div className={classes.info}>
+                </motion.div>
+            </motion.div>
+            <motion.div className={classes.info}>
                 <div className={classes.greet}>Hello I am,</div>
                 <div className={classes.name}>Joe Cristian Jamis</div>
                 <div className={classes.rank}>
@@ -29,8 +36,8 @@ const AboutMe = () => {
                     I am capable of solving logical problems
                     and possess critical thinking skills.
                 </div>
-            </div>
-        </div>
+            </motion.div>
+        </motion.div>
     )
 }
 

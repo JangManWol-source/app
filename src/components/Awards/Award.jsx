@@ -39,20 +39,20 @@ const Award = () => {
       <div className="header">
         <div className='item'>
           <div className='num'>{inView && <CountUp start={0} duration={2} end={452}/>}</div>
-          <div>
+          <div className='details'>
           Cups Of Coffee</div>
         </div>
         <div className='item'>
           <div className='num'>{inView && <CountUp start={0} duration={2} end={4}/>}</div>
-          <div>React Projects</div>
+          <div className='details'>React Projects</div>
         </div>
         <div className='item'>
           <div className='num'>{inView && <CountUp start={0} duration={2} end={10}/>}</div>
-          <div>Certificates</div>
+          <div className='details'>Certificates</div>
         </div>
         <div className='item'>
           <div className='num'>{inView && <CountUp start={0} duration={2} end={8301}/>}</div>
-          <div>Sleeps (Nights)</div>
+          <div className='details'>Sleeps (Nights)</div>
         </div>
       </div>
       <div className="certificates">

@@ -12,10 +12,10 @@ const Contact = () => {
                     <div className="img"><img src={adrs} alt="" /></div>
                     <div className="info">
                         <div className="info1">
-                            NCR, Quezon City 1119
+                            jamisjoecristian@gmail.com
                         </div>
                         <div className="info2">
-                            079 Lanzones Street Barangay Payatas Quezon City
+                            Sent email to
                         </div>
                     </div>
                 </div>
@@ -24,10 +24,10 @@ const Contact = () => {
                     <div className="img"><img src={email} alt="" /></div>
                     <div className="info">
                         <div className="info1">
-                            NCR, Quezon City 1119
+                            09914219787
                         </div>
                         <div className="info2">
-                            079 Lanzones Street Barangay Payatas Quezon City
+                            Available Monday to Sunday except Wednesday
                         </div>
                     </div>
                 </div>

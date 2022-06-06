@@ -1,62 +1,66 @@
-.about_me{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+.nav{
+    
     height: 100vh;
-    width: 100% auto;
-    overflow: hidden;
-    position: relative;
+    background-image: url('../res/drawable/bg.png');
+    background-size: cover;
 }
-.profile{
-    flex: 1;
-}
-.info{
-    flex: 1;
-    text-align: right;
-    padding-right: 1rem;
+.nav_content{
+    height: 80%;
+    padding-left: 40px;
+    color: white;
+    text-align: left;
+    display: flex;
+    align-items: center;
 }
 
-.greet{
-    font-weight: 400;
-    font-size: 20px;
+.nav_content .message{
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15rem; /* Adjust as needed */
+    animation: 
+      typing 2.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+.message{
+    font-weight: 200;
+    font-size: 15px;
 }
 .name{
     font-weight: 800;
-    font-size: 25px;
+    font-size: 35px;
 }
-.rank{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    font-weight: 600;
-    
+.details{
+    padding: 2rem;
 }
-.line{
-    width: 150px;
-    height: 3px;
-    background-color: #455954;
-}
-.message{
-    padding-left: 1rem;
-    padding-top: 25px;
-}
-.logo img{
-    width: 300px;
-    height: 300px;
-}
-
-@media screen and (max-width:480px) {
+@media screen and (max-width:600px) {
     .about_me{
         flex-direction: column;
-        height: 100% auto;
     }
-    .profile{
-        padding-top: 8rem;
+    .nav_content{
+        text-align: center;
+        justify-content: center;
     }
-    .info{
-        font-size: 13px;
-        padding: 1rem;
+    .message{
+        font-weight: 200;
+        font-size: 12px;
     }
     
+}
+
+@media (min-width:2052px) and (max-width:2732px)
+{
+.nav{
+    height: 100%;
+}
 }

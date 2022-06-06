@@ -1,6 +1,6 @@
 .skills{
     width: 100% auto;
-    height: 100vh;
+    height: 100%;
 }
 
 @media screen and (max-width: 480px) {

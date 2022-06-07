@@ -1,3 +1,4 @@
+import { Button } from '@mui/material'
 import React from 'react'
 import './Form.css'
 const Form = () => {
@@ -14,7 +15,7 @@ const Form = () => {
                     <textarea className='message' rows={20} cols={20} placeholder='Enter Message'></textarea>
                     </div>
                 </div>
-                <button type='onSubmit'>SUBMIT</button>
+                <Button type='onSubmit' variant='contained'>SUBMIT</Button>
 
             </form>
         </div>

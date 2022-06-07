@@ -1,5 +1,4 @@
 .nav{
-    
     height: 100vh;
     background-image: url('../res/drawable/bg.png');
     background-size: cover;
@@ -11,6 +10,13 @@
     text-align: left;
     display: flex;
     align-items: center;
+}
+.button{
+    width: fit-content;
+    margin: 20px 0px;
+}
+.button button{
+    background-color: blue;
 }
 
 .nav_content .message{
@@ -40,15 +46,51 @@
     font-weight: 800;
     font-size: 35px;
 }
+.logos{
+        
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    border-radius: 8px;
+    opacity: 0.3;}
+.logos img{
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+}
+.logos div{
+    height: 50px;
+    width: 50px;
+    margin-right: 5px;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
 .details{
     padding: 2rem;
 }
 @media screen and (max-width:600px) {
+    .logos{
+        padding-bottom: 10px;
+    }
     .about_me{
         flex-direction: column;
     }
+    .nav{
+        height: fit-content;
+        background-image: url('../res/drawable/clean_bg.png');
+    }
     .nav_content{
+        
+        display: flex;
+        justify-content: center;
         text-align: center;
+    }
+    .details{
+        padding: 5;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
         justify-content: center;
     }
     .message{

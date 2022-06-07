@@ -1,10 +1,20 @@
 .pop{
     bottom: 0%;
     right: 0%;
+    background-color: white;
     display: flex;
     position: fixed;
     flex-direction: row;
+    margin: 10px;
+    border-radius: 10px;
     align-items: flex-end;
-    padding: 1rem;
     z-index: 1;
+}
+.pop img{
+    margin: 10px;
+    width: 20px;
+    height: 20px;
+}
+@media screen and (max-width:600px) {
+    .pop{display: none;}
 }

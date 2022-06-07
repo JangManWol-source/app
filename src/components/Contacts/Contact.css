@@ -1,23 +1,20 @@
 .contacts{
     display: flex;
     padding: 1rem;
-}
-.details{
-    flex: 1;
+    align-items: center;
+    justify-content: center;
 }
 .img img{
     width: 20px;
     height: 20px;
 }
 .form{
-    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .infos{
     display: flex;
-    padding-left: 25px;
     justify-content: flex-start;
     align-items: center;
     margin: 10px;
@@ -31,7 +28,14 @@
     .contacts{
         flex-direction: column;
     }
-    
+    .details{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+flex-direction: column;    }
+    .details img{
+        left: 0;
+    }
 }
 .info1{
     font-weight: 700;
